@@ -1,0 +1,29 @@
+{
+  "name": "ANTabBarController",
+  "version": "0.1.0",
+  "summary": "A short description of ANTabBarController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Digitalbrain/ANTabBarController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Digitalbrain": "digitalbrain@hotmail.it"
+  },
+  "source": {
+    "git": "https://github.com/Digitalbrain/ANTabBarController.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.1",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ANTabBarController/Classes/**/*",
+  "dependencies": {
+    "DBCommonUI": [
+
+    ]
+  },
+  "swift_version": "5.1"
+}

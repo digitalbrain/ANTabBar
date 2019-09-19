@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019D74E01CCB24AB3A1EBB6CE714EE3D /* Pods-ANTabBarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75443174363BE0B3A4C14F6A106A4DE /* Pods-ANTabBarController_Tests-dummy.m */; };
+		149F02AC3450F2B4E861CB34F181BF70 /* LinearLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367E5D10BDFB141497473C6D89354AB /* LinearLoader.swift */; };
+		207AB726420B32F4AFA63295DDA02520 /* exit_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14A2BAEE8BBC779F588D511501F6EFF /* exit_btn@2x.png */; };
+		20A20D76164D91B6F319B815E313F511 /* ANTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24803B942E123BEF565794DC744F48BB /* ANTabBar.swift */; };
+		2B71BBCEF7C0BD38610B85E361D10929 /* ANTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08B0B6BF52C60202FE58932FF657B8F /* ANTabBarController.swift */; };
+		31039F2C6E80A2E68DA0ACD430721ABD /* Pods-ANTabBarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D45A5E5A5D5760E3EDE22FAAE4BACB /* Pods-ANTabBarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35816ADA27AADFCF5792C44B1985AE86 /* Pods-ANTabBarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38293B9669EDA0A665A1C75E73523825 /* Pods-ANTabBarController_Example-dummy.m */; };
+		465A815E4557570E2C18FFF8FE3C595C /* CommonUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C8DAFE21DD1454D4044D2E32EB7F1F4 /* CommonUI.bundle */; };
+		4726A72394B36FFC84D361B1C35BA680 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E949484BEEB74646407F02B7BD973E /* Foundation.framework */; };
+		49D6BBD84843081D561345F97DF0880E /* ANTabBarItem.xib in Sources */ = {isa = PBXBuildFile; fileRef = E7395155AEDD0AFD458B931C8E5118FA /* ANTabBarItem.xib */; };
+		537B89771A2BA499466992D96D700868 /* ANTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E25783A0853237D392D359B47510AD6 /* ANTabBarController-dummy.m */; };
+		627EC809237DAE7D89D1A6A4383508B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E949484BEEB74646407F02B7BD973E /* Foundation.framework */; };
+		6A69B8BBC36926AE85CB1CFF5DA8F973 /* DBCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D771E9214C56F0A51FBF9365201C77D /* DBCommonUI.framework */; };
+		789313B7EEE27ABC363256612480E9E2 /* DBCommonUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 399B4E75913A2107136F39667F372A6E /* DBCommonUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A310ADF2D3AD61265C327ECB9C3F041 /* ViewWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294006F51E737F77E0D49472A9B44574 /* ViewWithShadow.swift */; };
+		7A551B1F5B07D79C8BB29545C15BF5D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE95804C4084E14DC47124D2B7D4AF /* Extensions.swift */; };
+		7AB07347DBEF4C3278BFD6508C88DD80 /* ANMoovableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD1C4C69989BA7C7F8FB954BB4A674 /* ANMoovableView.swift */; };
+		7E8EE345039EA3B0936D015E1BBED3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E949484BEEB74646407F02B7BD973E /* Foundation.framework */; };
+		8E4C4379263BDBB2433006CA2806566C /* exit_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0666E7341D18EC4FF08240F99A6224 /* exit_btn@3x.png */; };
+		9654AECD5E7058AAE7AF2ED5EEA59BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E949484BEEB74646407F02B7BD973E /* Foundation.framework */; };
+		A84DE1AF5A82873B869ECFF8DB997532 /* ANTabBarController.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 8E611AE374A3D902FD049457B77C2F5E /* ANTabBarController.storyboard */; };
+		AA04462901352C60051685ECC10F57EF /* CommonUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB7A0A3E85787892ECBFD7E264E1342 /* CommonUI.storyboard */; };
+		AA612DCC924B3829B1750EE5BAFDE42D /* DBCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7281B5D6C4F57EB1C8E77933FDB066F5 /* DBCommonUI-dummy.m */; };
+		AEA3573E2E2C1CF8A3FA1ADE0FAC9E87 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECE4849F7C896B598AE9DE508824D4 /* WebViewController.swift */; };
+		BDBC71CEAFDE056C1A82A54EE58B8011 /* exit_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6122E98A9C1DBB5FA80E7CB54F4177 /* exit_btn.png */; };
+		CA868D82F80606DBC70C0F88197A06E7 /* ShineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F57D8A57BB0702AE884CE715446ED13 /* ShineLabel.swift */; };
+		CAB56E1DDD77CE140F75958D734C432E /* Pods-ANTabBarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C701050A7102A356184BFFDABADEF315 /* Pods-ANTabBarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD032DC301DB723475DF543BA34834EC /* ANTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BE8F2936249BC5AD774793D1FAEEA /* ANTabBarItem.swift */; };
+		E4977E506584ADB3659674E624B5E28C /* ANTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBE9D0B181C1D88FAD5CC0AA561C6B5 /* ANTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA478C35ADF5A423F6C80916E705AB83 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC8EED80D57025887291E9EF5E0955 /* AlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001D90B08908A9334D3F920AD8B25E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AEDFA5A75CD7CCEDB70522EFC0CF7D;
+			remoteInfo = DBCommonUI;
+		};
+		800C7D7513F6BD5E68FA406B30123C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A569666489E744D79F40ED0D1D5AD69;
+			remoteInfo = ANTabBarController;
+		};
+		A2B0A9C05B780220C284CFD1760AD678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AEDFA5A75CD7CCEDB70522EFC0CF7D;
+			remoteInfo = DBCommonUI;
+		};
+		B688F7DC5A332E240950BC0D9564ADE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0E969EA77B19A1E7AB2CE70B0D5B8E;
+			remoteInfo = "Pods-ANTabBarController_Example";
+		};
+		E10222E312577A4FEEA17D5C7E76EDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F427684DCB19D68EA5368A659E4113D6;
+			remoteInfo = "DBCommonUI-CommonUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0367E5D10BDFB141497473C6D89354AB /* LinearLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearLoader.swift; path = CommonUI/Classes/LinearLoader.swift; sourceTree = "<group>"; };
+		0C6122E98A9C1DBB5FA80E7CB54F4177 /* exit_btn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = exit_btn.png; path = CommonUI/Assets/exit_btn.png; sourceTree = "<group>"; };
+		1A11E40B392300B2CB7C1FB1FD4D8BDA /* Pods-ANTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E60E9DA6FE3D98907271C46C2A89523 /* Pods-ANTabBarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANTabBarController_Example.modulemap"; sourceTree = "<group>"; };
+		214BE8F2936249BC5AD774793D1FAEEA /* ANTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANTabBarItem.swift; path = ANTabBarController/Classes/ANTabBarItem.swift; sourceTree = "<group>"; };
+		24803B942E123BEF565794DC744F48BB /* ANTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANTabBar.swift; path = ANTabBarController/Classes/ANTabBar.swift; sourceTree = "<group>"; };
+		24D27D004A1EB1A0E451832ECB0F554F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2563AB138DC60D7CB881546EDF8A1869 /* DBCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBCommonUI.framework; path = DBCommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		294006F51E737F77E0D49472A9B44574 /* ViewWithShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewWithShadow.swift; path = CommonUI/Classes/ViewWithShadow.swift; sourceTree = "<group>"; };
+		2E25783A0853237D392D359B47510AD6 /* ANTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANTabBarController-dummy.m"; sourceTree = "<group>"; };
+		2EBE9D0B181C1D88FAD5CC0AA561C6B5 /* ANTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		30C3F7FE810E3442D4F31B30F82BF52C /* Pods-ANTabBarController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANTabBarController_Example-Info.plist"; sourceTree = "<group>"; };
+		37D45A5E5A5D5760E3EDE22FAAE4BACB /* Pods-ANTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
+		38293B9669EDA0A665A1C75E73523825 /* Pods-ANTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
+		399B4E75913A2107136F39667F372A6E /* DBCommonUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBCommonUI-umbrella.h"; sourceTree = "<group>"; };
+		3AB7A0A3E85787892ECBFD7E264E1342 /* CommonUI.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CommonUI.storyboard; path = CommonUI/Assets/CommonUI.storyboard; sourceTree = "<group>"; };
+		3C8DAFE21DD1454D4044D2E32EB7F1F4 /* CommonUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CommonUI.bundle; path = "DBCommonUI-CommonUI.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C8E098591CE17AF79A3C3DAB3C6EC9 /* Pods-ANTabBarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANTabBarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DA6C86176DC7EC7831BB19659CF1FC4 /* DBCommonUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBCommonUI.modulemap; sourceTree = "<group>"; };
+		547683AD943A0817593FB536E4474FCB /* Pods_ANTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ANTabBarController_Example.framework; path = "Pods-ANTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56017937666DF595A29773D03F80DF7A /* Pods-ANTabBarController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANTabBarController_Tests-Info.plist"; sourceTree = "<group>"; };
+		5671506B59610A6EAEDFAE332D1FD5C2 /* Pods-ANTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
+		58FE45F1725F02D18B367096F903BB75 /* Pods-ANTabBarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANTabBarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62784E3B1A89AC042BE58875D9BAAEDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F57D8A57BB0702AE884CE715446ED13 /* ShineLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShineLabel.swift; path = CommonUI/Classes/ShineLabel.swift; sourceTree = "<group>"; };
+		7281B5D6C4F57EB1C8E77933FDB066F5 /* DBCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBCommonUI-dummy.m"; sourceTree = "<group>"; };
+		75ECE4849F7C896B598AE9DE508824D4 /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = CommonUI/Classes/WebViewController.swift; sourceTree = "<group>"; };
+		77B7153898883AF38D40417CD8F28504 /* ANTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		7DB1CB16BAC1CD5D5EBFBCFBC7BC26C8 /* ANTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ANTabBarController-Info.plist"; sourceTree = "<group>"; };
+		7E83FF6DE49258286EE45C2CBC43E4D5 /* Pods-ANTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89E949484BEEB74646407F02B7BD973E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A54AB02EEF93F9A09DE3F6549C05D53 /* DBCommonUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DBCommonUI-Info.plist"; sourceTree = "<group>"; };
+		8B4671AE95E65EB33949084787EBF5CA /* ANTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ANTabBarController.framework; path = ANTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D771E9214C56F0A51FBF9365201C77D /* DBCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBCommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E611AE374A3D902FD049457B77C2F5E /* ANTabBarController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ANTabBarController.storyboard; path = ANTabBarController/Classes/ANTabBarController.storyboard; sourceTree = "<group>"; };
+		9044EADCB438577358E1369EF5BE525B /* DBCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBCommonUI-prefix.pch"; sourceTree = "<group>"; };
+		91C734EFA046EC3E43703A98FEACA198 /* Pods-ANTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		95A092A4FD53B84254B5C9D3FE8EA575 /* ANTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ANTabBarController.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEE95804C4084E14DC47124D2B7D4AF /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CommonUI/Classes/Extensions.swift; sourceTree = "<group>"; };
+		A4D4EF98C86D4AAE446012277804FC04 /* Pods-ANTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A64C262E1A4C83A29076A1A8929C4FE2 /* Pods-ANTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD0666E7341D18EC4FF08240F99A6224 /* exit_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "exit_btn@3x.png"; path = "CommonUI/Assets/exit_btn@3x.png"; sourceTree = "<group>"; };
+		BEAC8EED80D57025887291E9EF5E0955 /* AlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = CommonUI/Classes/AlertViewController.swift; sourceTree = "<group>"; };
+		C54764E9FC9A0C26772B8431FA41497A /* ANTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANTabBarController.xcconfig; sourceTree = "<group>"; };
+		C701050A7102A356184BFFDABADEF315 /* Pods-ANTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C75443174363BE0B3A4C14F6A106A4DE /* Pods-ANTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
+		D844A64B41AB6F84F21231D553AB9100 /* DBCommonUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBCommonUI.xcconfig; sourceTree = "<group>"; };
+		DBC736512FD7E8AA648D7B348C3ABA4A /* Pods-ANTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4CBE3CD8409B2CD6F70BE1E3C47FCFD /* ResourceBundle-CommonUI-DBCommonUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CommonUI-DBCommonUI-Info.plist"; sourceTree = "<group>"; };
+		E7395155AEDD0AFD458B931C8E5118FA /* ANTabBarItem.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ANTabBarItem.xib; path = ANTabBarController/Classes/ANTabBarItem.xib; sourceTree = "<group>"; };
+		E7BD1C4C69989BA7C7F8FB954BB4A674 /* ANMoovableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANMoovableView.swift; path = ANTabBarController/Classes/ANMoovableView.swift; sourceTree = "<group>"; };
+		F08B0B6BF52C60202FE58932FF657B8F /* ANTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANTabBarController.swift; path = ANTabBarController/Classes/ANTabBarController.swift; sourceTree = "<group>"; };
+		F14A2BAEE8BBC779F588D511501F6EFF /* exit_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "exit_btn@2x.png"; path = "CommonUI/Assets/exit_btn@2x.png"; sourceTree = "<group>"; };
+		F3CADB06F0688178AC6C676FEC1D5F11 /* ANTabBarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ANTabBarController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FBA739E9BA9740E0352366B45C3BE617 /* Pods-ANTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD4E53E6F86DDC89F1DA634AE9F7A1C6 /* Pods_ANTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ANTabBarController_Tests.framework; path = "Pods-ANTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12B9E48ABFAED1B54315825234CEF1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCCC6D09884E3488C23F910F05F4EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A69B8BBC36926AE85CB1CFF5DA8F973 /* DBCommonUI.framework in Frameworks */,
+				7E8EE345039EA3B0936D015E1BBED3EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914343F4BE14C0B5B051011C22903F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654AECD5E7058AAE7AF2ED5EEA59BF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D895B2448A54C4B5D832AAE5D9B8771F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627EC809237DAE7D89D1A6A4383508B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E9C779B1C1D2217E234D9DE9DC0592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4726A72394B36FFC84D361B1C35BA680 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189AB0CFFACD5AAF25B837D0D2BA44A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA6C86176DC7EC7831BB19659CF1FC4 /* DBCommonUI.modulemap */,
+				D844A64B41AB6F84F21231D553AB9100 /* DBCommonUI.xcconfig */,
+				7281B5D6C4F57EB1C8E77933FDB066F5 /* DBCommonUI-dummy.m */,
+				8A54AB02EEF93F9A09DE3F6549C05D53 /* DBCommonUI-Info.plist */,
+				9044EADCB438577358E1369EF5BE525B /* DBCommonUI-prefix.pch */,
+				399B4E75913A2107136F39667F372A6E /* DBCommonUI-umbrella.h */,
+				E4CBE3CD8409B2CD6F70BE1E3C47FCFD /* ResourceBundle-CommonUI-DBCommonUI-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DBCommonUI";
+			sourceTree = "<group>";
+		};
+		24A09017C7B6C6AB0388C86416675D4A /* DBCommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC8EED80D57025887291E9EF5E0955 /* AlertViewController.swift */,
+				9DEE95804C4084E14DC47124D2B7D4AF /* Extensions.swift */,
+				0367E5D10BDFB141497473C6D89354AB /* LinearLoader.swift */,
+				6F57D8A57BB0702AE884CE715446ED13 /* ShineLabel.swift */,
+				294006F51E737F77E0D49472A9B44574 /* ViewWithShadow.swift */,
+				75ECE4849F7C896B598AE9DE508824D4 /* WebViewController.swift */,
+				5A2103E7562B355B86611579DC83A5F9 /* Resources */,
+				189AB0CFFACD5AAF25B837D0D2BA44A8 /* Support Files */,
+			);
+			name = DBCommonUI;
+			path = DBCommonUI;
+			sourceTree = "<group>";
+		};
+		3C37AEBB0020D1A6D1C1B2601F98ABDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4671AE95E65EB33949084787EBF5CA /* ANTabBarController.framework */,
+				3C8DAFE21DD1454D4044D2E32EB7F1F4 /* CommonUI.bundle */,
+				2563AB138DC60D7CB881546EDF8A1869 /* DBCommonUI.framework */,
+				547683AD943A0817593FB536E4474FCB /* Pods_ANTabBarController_Example.framework */,
+				FD4E53E6F86DDC89F1DA634AE9F7A1C6 /* Pods_ANTabBarController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4190DDEF4408CF2A925EA92D6F44AA0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D771E9214C56F0A51FBF9365201C77D /* DBCommonUI.framework */,
+				6E04C889F1F8F55BDB7BD5ED1C7BBFB3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A2103E7562B355B86611579DC83A5F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AB7A0A3E85787892ECBFD7E264E1342 /* CommonUI.storyboard */,
+				0C6122E98A9C1DBB5FA80E7CB54F4177 /* exit_btn.png */,
+				F14A2BAEE8BBC779F588D511501F6EFF /* exit_btn@2x.png */,
+				AD0666E7341D18EC4FF08240F99A6224 /* exit_btn@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5BDB573C07CA76181D70899BF7284758 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8A9ED9FDAAC6F82BAF0AEE018BA9046 /* Pods-ANTabBarController_Example */,
+				A74488EFF1223276DFBC67FB5ED343F7 /* Pods-ANTabBarController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		615358AF856656C63D9B81210D4111AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A09017C7B6C6AB0388C86416675D4A /* DBCommonUI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E04C889F1F8F55BDB7BD5ED1C7BBFB3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89E949484BEEB74646407F02B7BD973E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75726283E09A0402FDE33520402617CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F3CADB06F0688178AC6C676FEC1D5F11 /* ANTabBarController.podspec */,
+				24D27D004A1EB1A0E451832ECB0F554F /* LICENSE */,
+				62784E3B1A89AC042BE58875D9BAAEDB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		841075AB1C7D28835AE080C2FEEDBBCE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1D7FFF970648A423011DC2235AA30F3 /* ANTabBarController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A1D7FFF970648A423011DC2235AA30F3 /* ANTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E7BD1C4C69989BA7C7F8FB954BB4A674 /* ANMoovableView.swift */,
+				24803B942E123BEF565794DC744F48BB /* ANTabBar.swift */,
+				8E611AE374A3D902FD049457B77C2F5E /* ANTabBarController.storyboard */,
+				F08B0B6BF52C60202FE58932FF657B8F /* ANTabBarController.swift */,
+				214BE8F2936249BC5AD774793D1FAEEA /* ANTabBarItem.swift */,
+				E7395155AEDD0AFD458B931C8E5118FA /* ANTabBarItem.xib */,
+				75726283E09A0402FDE33520402617CE /* Pod */,
+				AC1CEC1A3A83B4A9C34A7A7EE7EDE072 /* Support Files */,
+			);
+			name = ANTabBarController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A74488EFF1223276DFBC67FB5ED343F7 /* Pods-ANTabBarController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5671506B59610A6EAEDFAE332D1FD5C2 /* Pods-ANTabBarController_Tests.modulemap */,
+				58FE45F1725F02D18B367096F903BB75 /* Pods-ANTabBarController_Tests-acknowledgements.markdown */,
+				7E83FF6DE49258286EE45C2CBC43E4D5 /* Pods-ANTabBarController_Tests-acknowledgements.plist */,
+				C75443174363BE0B3A4C14F6A106A4DE /* Pods-ANTabBarController_Tests-dummy.m */,
+				56017937666DF595A29773D03F80DF7A /* Pods-ANTabBarController_Tests-Info.plist */,
+				C701050A7102A356184BFFDABADEF315 /* Pods-ANTabBarController_Tests-umbrella.h */,
+				FBA739E9BA9740E0352366B45C3BE617 /* Pods-ANTabBarController_Tests.debug.xcconfig */,
+				DBC736512FD7E8AA648D7B348C3ABA4A /* Pods-ANTabBarController_Tests.release.xcconfig */,
+			);
+			name = "Pods-ANTabBarController_Tests";
+			path = "Target Support Files/Pods-ANTabBarController_Tests";
+			sourceTree = "<group>";
+		};
+		A8A9ED9FDAAC6F82BAF0AEE018BA9046 /* Pods-ANTabBarController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1E60E9DA6FE3D98907271C46C2A89523 /* Pods-ANTabBarController_Example.modulemap */,
+				49C8E098591CE17AF79A3C3DAB3C6EC9 /* Pods-ANTabBarController_Example-acknowledgements.markdown */,
+				A4D4EF98C86D4AAE446012277804FC04 /* Pods-ANTabBarController_Example-acknowledgements.plist */,
+				38293B9669EDA0A665A1C75E73523825 /* Pods-ANTabBarController_Example-dummy.m */,
+				A64C262E1A4C83A29076A1A8929C4FE2 /* Pods-ANTabBarController_Example-frameworks.sh */,
+				30C3F7FE810E3442D4F31B30F82BF52C /* Pods-ANTabBarController_Example-Info.plist */,
+				37D45A5E5A5D5760E3EDE22FAAE4BACB /* Pods-ANTabBarController_Example-umbrella.h */,
+				1A11E40B392300B2CB7C1FB1FD4D8BDA /* Pods-ANTabBarController_Example.debug.xcconfig */,
+				91C734EFA046EC3E43703A98FEACA198 /* Pods-ANTabBarController_Example.release.xcconfig */,
+			);
+			name = "Pods-ANTabBarController_Example";
+			path = "Target Support Files/Pods-ANTabBarController_Example";
+			sourceTree = "<group>";
+		};
+		AC1CEC1A3A83B4A9C34A7A7EE7EDE072 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A092A4FD53B84254B5C9D3FE8EA575 /* ANTabBarController.modulemap */,
+				C54764E9FC9A0C26772B8431FA41497A /* ANTabBarController.xcconfig */,
+				2E25783A0853237D392D359B47510AD6 /* ANTabBarController-dummy.m */,
+				7DB1CB16BAC1CD5D5EBFBCFBC7BC26C8 /* ANTabBarController-Info.plist */,
+				77B7153898883AF38D40417CD8F28504 /* ANTabBarController-prefix.pch */,
+				2EBE9D0B181C1D88FAD5CC0AA561C6B5 /* ANTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ANTabBarController";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				841075AB1C7D28835AE080C2FEEDBBCE /* Development Pods */,
+				4190DDEF4408CF2A925EA92D6F44AA0B /* Frameworks */,
+				615358AF856656C63D9B81210D4111AB /* Pods */,
+				3C37AEBB0020D1A6D1C1B2601F98ABDF /* Products */,
+				5BDB573C07CA76181D70899BF7284758 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D8D59952D93F17B1E9E2E125AA41004 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4977E506584ADB3659674E624B5E28C /* ANTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188D1152FDB1C03DA2A4ADC8A4C74F34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31039F2C6E80A2E68DA0ACD430721ABD /* Pods-ANTabBarController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49730C412B785A44676831F8AF44990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789313B7EEE27ABC363256612480E9E2 /* DBCommonUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46D600809824FF0BBCBD637B460FBDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB56E1DDD77CE140F75958D734C432E /* Pods-ANTabBarController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A0E969EA77B19A1E7AB2CE70B0D5B8E /* Pods-ANTabBarController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CF0CD2B5A0801CA27075DAF60827CF /* Build configuration list for PBXNativeTarget "Pods-ANTabBarController_Example" */;
+			buildPhases = (
+				188D1152FDB1C03DA2A4ADC8A4C74F34 /* Headers */,
+				8185DFBAFD1A9B136580F73C653C2B2C /* Sources */,
+				D895B2448A54C4B5D832AAE5D9B8771F /* Frameworks */,
+				7B084956ADA4A06D00B96F9ECA0E74D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1A882057B359D08A7F9697074FA947 /* PBXTargetDependency */,
+				2DECB7F7F0B900B6989A2E159109B815 /* PBXTargetDependency */,
+			);
+			name = "Pods-ANTabBarController_Example";
+			productName = "Pods-ANTabBarController_Example";
+			productReference = 547683AD943A0817593FB536E4474FCB /* Pods_ANTabBarController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A569666489E744D79F40ED0D1D5AD69 /* ANTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAF4023977515ECC1976335C1E209A /* Build configuration list for PBXNativeTarget "ANTabBarController" */;
+			buildPhases = (
+				0D8D59952D93F17B1E9E2E125AA41004 /* Headers */,
+				3240791DE5AF5FD6302C1BB41181AF53 /* Sources */,
+				6CCCC6D09884E3488C23F910F05F4EDC /* Frameworks */,
+				29632AD52C137BDAF6714D60FC18D3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D19ECE30DE7FBA72C19372DABFB754 /* PBXTargetDependency */,
+			);
+			name = ANTabBarController;
+			productName = ANTabBarController;
+			productReference = 8B4671AE95E65EB33949084787EBF5CA /* ANTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12AEDFA5A75CD7CCEDB70522EFC0CF7D /* DBCommonUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7891C9DE8086FB26F091B6D16D2B7F2B /* Build configuration list for PBXNativeTarget "DBCommonUI" */;
+			buildPhases = (
+				C49730C412B785A44676831F8AF44990 /* Headers */,
+				008B36DDA35DB7F8FC718693ADBE4CD8 /* Sources */,
+				914343F4BE14C0B5B051011C22903F45 /* Frameworks */,
+				F025BE2932F3E1E31975AD3FAF1ABF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF87C1FBF8443BE64A1865FED143ED72 /* PBXTargetDependency */,
+			);
+			name = DBCommonUI;
+			productName = DBCommonUI;
+			productReference = 2563AB138DC60D7CB881546EDF8A1869 /* DBCommonUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADC464EF172007D26C03EB36ED99E565 /* Pods-ANTabBarController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36F3A88361FBB31B242E179A962D09C /* Build configuration list for PBXNativeTarget "Pods-ANTabBarController_Tests" */;
+			buildPhases = (
+				F46D600809824FF0BBCBD637B460FBDF /* Headers */,
+				6F43EB34CAAE2289BB0FBD93CE02EF00 /* Sources */,
+				E7E9C779B1C1D2217E234D9DE9DC0592 /* Frameworks */,
+				88E2F1BBE3E2C2DFD40E9E3CEDC4A19B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B508C3FE76F87DF2D8FB43394519D18 /* PBXTargetDependency */,
+			);
+			name = "Pods-ANTabBarController_Tests";
+			productName = "Pods-ANTabBarController_Tests";
+			productReference = FD4E53E6F86DDC89F1DA634AE9F7A1C6 /* Pods_ANTabBarController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F427684DCB19D68EA5368A659E4113D6 /* DBCommonUI-CommonUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D1907BEA49F9ED47F75F2B023136A2 /* Build configuration list for PBXNativeTarget "DBCommonUI-CommonUI" */;
+			buildPhases = (
+				89E8BC3795F229A244EC01E009AEFD66 /* Sources */,
+				12B9E48ABFAED1B54315825234CEF1DF /* Frameworks */,
+				5E868D0BD8A27533E4854B1BBC161EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DBCommonUI-CommonUI";
+			productName = "DBCommonUI-CommonUI";
+			productReference = 3C8DAFE21DD1454D4044D2E32EB7F1F4 /* CommonUI.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C37AEBB0020D1A6D1C1B2601F98ABDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A569666489E744D79F40ED0D1D5AD69 /* ANTabBarController */,
+				12AEDFA5A75CD7CCEDB70522EFC0CF7D /* DBCommonUI */,
+				F427684DCB19D68EA5368A659E4113D6 /* DBCommonUI-CommonUI */,
+				0A0E969EA77B19A1E7AB2CE70B0D5B8E /* Pods-ANTabBarController_Example */,
+				ADC464EF172007D26C03EB36ED99E565 /* Pods-ANTabBarController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29632AD52C137BDAF6714D60FC18D3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E868D0BD8A27533E4854B1BBC161EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA04462901352C60051685ECC10F57EF /* CommonUI.storyboard in Resources */,
+				BDBC71CEAFDE056C1A82A54EE58B8011 /* exit_btn.png in Resources */,
+				207AB726420B32F4AFA63295DDA02520 /* exit_btn@2x.png in Resources */,
+				8E4C4379263BDBB2433006CA2806566C /* exit_btn@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B084956ADA4A06D00B96F9ECA0E74D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E2F1BBE3E2C2DFD40E9E3CEDC4A19B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F025BE2932F3E1E31975AD3FAF1ABF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465A815E4557570E2C18FFF8FE3C595C /* CommonUI.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008B36DDA35DB7F8FC718693ADBE4CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA478C35ADF5A423F6C80916E705AB83 /* AlertViewController.swift in Sources */,
+				AA612DCC924B3829B1750EE5BAFDE42D /* DBCommonUI-dummy.m in Sources */,
+				7A551B1F5B07D79C8BB29545C15BF5D0 /* Extensions.swift in Sources */,
+				149F02AC3450F2B4E861CB34F181BF70 /* LinearLoader.swift in Sources */,
+				CA868D82F80606DBC70C0F88197A06E7 /* ShineLabel.swift in Sources */,
+				7A310ADF2D3AD61265C327ECB9C3F041 /* ViewWithShadow.swift in Sources */,
+				AEA3573E2E2C1CF8A3FA1ADE0FAC9E87 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3240791DE5AF5FD6302C1BB41181AF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB07347DBEF4C3278BFD6508C88DD80 /* ANMoovableView.swift in Sources */,
+				20A20D76164D91B6F319B815E313F511 /* ANTabBar.swift in Sources */,
+				537B89771A2BA499466992D96D700868 /* ANTabBarController-dummy.m in Sources */,
+				A84DE1AF5A82873B869ECFF8DB997532 /* ANTabBarController.storyboard in Sources */,
+				2B71BBCEF7C0BD38610B85E361D10929 /* ANTabBarController.swift in Sources */,
+				CD032DC301DB723475DF543BA34834EC /* ANTabBarItem.swift in Sources */,
+				49D6BBD84843081D561345F97DF0880E /* ANTabBarItem.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F43EB34CAAE2289BB0FBD93CE02EF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019D74E01CCB24AB3A1EBB6CE714EE3D /* Pods-ANTabBarController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8185DFBAFD1A9B136580F73C653C2B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35816ADA27AADFCF5792C44B1985AE86 /* Pods-ANTabBarController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E8BC3795F229A244EC01E009AEFD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DECB7F7F0B900B6989A2E159109B815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DBCommonUI;
+			target = 12AEDFA5A75CD7CCEDB70522EFC0CF7D /* DBCommonUI */;
+			targetProxy = A2B0A9C05B780220C284CFD1760AD678 /* PBXContainerItemProxy */;
+		};
+		3B508C3FE76F87DF2D8FB43394519D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ANTabBarController_Example";
+			target = 0A0E969EA77B19A1E7AB2CE70B0D5B8E /* Pods-ANTabBarController_Example */;
+			targetProxy = B688F7DC5A332E240950BC0D9564ADE3 /* PBXContainerItemProxy */;
+		};
+		67D19ECE30DE7FBA72C19372DABFB754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DBCommonUI;
+			target = 12AEDFA5A75CD7CCEDB70522EFC0CF7D /* DBCommonUI */;
+			targetProxy = 001D90B08908A9334D3F920AD8B25E2E /* PBXContainerItemProxy */;
+		};
+		CC1A882057B359D08A7F9697074FA947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANTabBarController;
+			target = 0A569666489E744D79F40ED0D1D5AD69 /* ANTabBarController */;
+			targetProxy = 800C7D7513F6BD5E68FA406B30123C92 /* PBXContainerItemProxy */;
+		};
+		DF87C1FBF8443BE64A1865FED143ED72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DBCommonUI-CommonUI";
+			target = F427684DCB19D68EA5368A659E4113D6 /* DBCommonUI-CommonUI */;
+			targetProxy = E10222E312577A4FEEA17D5C7E76EDD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42B3DCC1C25586C71D10C6CFCE058FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A11E40B392300B2CB7C1FB1FD4D8BDA /* Pods-ANTabBarController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTabBarController_Example/Pods-ANTabBarController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTabBarController_Example/Pods-ANTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B706149E661681519D3153E86FA560A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA739E9BA9740E0352366B45C3BE617 /* Pods-ANTabBarController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTabBarController_Tests/Pods-ANTabBarController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTabBarController_Tests/Pods-ANTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		833027C7464337854E5E2F49B6ABA9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54764E9FC9A0C26772B8431FA41497A /* ANTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ANTabBarController/ANTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANTabBarController/ANTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANTabBarController/ANTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = ANTabBarController;
+				PRODUCT_NAME = ANTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F69569866536F2274A73C7C8B597493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D844A64B41AB6F84F21231D553AB9100 /* DBCommonUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DBCommonUI";
+				INFOPLIST_FILE = "Target Support Files/DBCommonUI/ResourceBundle-CommonUI-DBCommonUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CommonUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF0FE7A93CBC8769D2170C196FA9AE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D844A64B41AB6F84F21231D553AB9100 /* DBCommonUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DBCommonUI/DBCommonUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBCommonUI/DBCommonUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DBCommonUI/DBCommonUI.modulemap";
+				PRODUCT_MODULE_NAME = DBCommonUI;
+				PRODUCT_NAME = DBCommonUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF7985BB86A5CFB0052642FF9185FB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C734EFA046EC3E43703A98FEACA198 /* Pods-ANTabBarController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTabBarController_Example/Pods-ANTabBarController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTabBarController_Example/Pods-ANTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5C5AE0D731458995ACF36F6D47AE72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54764E9FC9A0C26772B8431FA41497A /* ANTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ANTabBarController/ANTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANTabBarController/ANTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANTabBarController/ANTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = ANTabBarController;
+				PRODUCT_NAME = ANTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6E77D52BC501A5F19AF803EBB457498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC736512FD7E8AA648D7B348C3ABA4A /* Pods-ANTabBarController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANTabBarController_Tests/Pods-ANTabBarController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANTabBarController_Tests/Pods-ANTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED3E348DCDDAA44DAEDB8B907B490C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D844A64B41AB6F84F21231D553AB9100 /* DBCommonUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DBCommonUI/DBCommonUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBCommonUI/DBCommonUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DBCommonUI/DBCommonUI.modulemap";
+				PRODUCT_MODULE_NAME = DBCommonUI;
+				PRODUCT_NAME = DBCommonUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3CBA3325AC31528C304299374423687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D844A64B41AB6F84F21231D553AB9100 /* DBCommonUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DBCommonUI";
+				INFOPLIST_FILE = "Target Support Files/DBCommonUI/ResourceBundle-CommonUI-DBCommonUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CommonUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D1907BEA49F9ED47F75F2B023136A2 /* Build configuration list for PBXNativeTarget "DBCommonUI-CommonUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CBA3325AC31528C304299374423687 /* Debug */,
+				9F69569866536F2274A73C7C8B597493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CF0CD2B5A0801CA27075DAF60827CF /* Build configuration list for PBXNativeTarget "Pods-ANTabBarController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B3DCC1C25586C71D10C6CFCE058FCD /* Debug */,
+				CF7985BB86A5CFB0052642FF9185FB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7891C9DE8086FB26F091B6D16D2B7F2B /* Build configuration list for PBXNativeTarget "DBCommonUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3E348DCDDAA44DAEDB8B907B490C2A /* Debug */,
+				CF0FE7A93CBC8769D2170C196FA9AE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36F3A88361FBB31B242E179A962D09C /* Build configuration list for PBXNativeTarget "Pods-ANTabBarController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B706149E661681519D3153E86FA560A /* Debug */,
+				E6E77D52BC501A5F19AF803EBB457498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAF4023977515ECC1976335C1E209A /* Build configuration list for PBXNativeTarget "ANTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833027C7464337854E5E2F49B6ABA9D0 /* Debug */,
+				E5C5AE0D731458995ACF36F6D47AE72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

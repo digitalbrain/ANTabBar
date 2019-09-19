@@ -1,0 +1,6 @@
+framework module DBCommonUI {
+  umbrella header "DBCommonUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
