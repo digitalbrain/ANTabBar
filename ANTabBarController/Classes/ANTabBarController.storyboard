@@ -101,25 +101,5 @@
             </objects>
             <point key="canvasLocation" x="604.34782608695662" y="95.758928571428569"/>
         </scene>
-        <!--Menu Table View Controller-->
-        <scene sceneID="jIV-gs-qQL">
-            <objects>
-                <tableViewController id="dy1-gO-FJz" customClass="MenuTableViewController" customModule="ANTabBarController" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="074-QV-Ayq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <sections/>
-                        <connections>
-                            <outlet property="dataSource" destination="dy1-gO-FJz" id="3l1-S8-8bB"/>
-                            <outlet property="delegate" destination="dy1-gO-FJz" id="Y08-gn-pcm"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DGa-0Y-adM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1826" y="-1"/>
-        </scene>
     </scenes>
 </document>

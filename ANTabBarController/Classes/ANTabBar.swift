@@ -1,6 +1,6 @@
 //
 //  ANTabBar.swift
-//  Euronics_2019
+// 
 //
 //  Created by Massimiliano on 22/03/2019.
 //  Copyright © 2019 Massimiliano Schinco. All rights reserved.
