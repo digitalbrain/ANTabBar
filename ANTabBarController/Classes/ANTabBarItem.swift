@@ -18,14 +18,16 @@ public class ANTabBarItem: UIControl {
     
     var widthConstraint: NSLayoutConstraint?
     var iconImage: UIImage?
+    var iconDefaultColor: UIColor?
    
     public var title: String?
     public var selectedColor: UIColor = .red
     public var defaultColor: UIColor = .white
     
-    public static func create(title: String, icon: UIImage?, defaultColor: UIColor = .white, selectedColor: UIColor = .red, font: UIFont = UIFont.boldSystemFont(ofSize: 16)) -> ANTabBarItem {
+    public static func create(title: String, icon: UIImage?, iconDefaultColor: UIColor = UIColor.lightGray ,defaultColor: UIColor = .white, selectedColor: UIColor = .red, font: UIFont = UIFont.boldSystemFont(ofSize: 16)) -> ANTabBarItem {
         let toReturn = self.create()
         toReturn.set(title: title, icon: icon, defaultColor: defaultColor, selectedColor: selectedColor, font: font)
+        toReturn.iconDefaultColor = iconDefaultColor
         return toReturn
     }
     
@@ -59,7 +61,7 @@ public class ANTabBarItem: UIControl {
     
     func setSelected( selected: Bool, animated: Bool, width: CGFloat? = nil) {
         self.isSelected = selected
-        self.icon?.tintColor  = selected ?  defaultColor : selectedColor
+        self.icon?.tintColor  = selected ?  self.defaultColor : self.iconDefaultColor
         self.widthConstraint?.constant = width ?? 0
         self.minimuMargin?.priority = selected ? UILayoutPriority.defaultHigh : UILayoutPriority.defaultLow
         self.labelMarginRight?.constant = selected ? 10 : 0

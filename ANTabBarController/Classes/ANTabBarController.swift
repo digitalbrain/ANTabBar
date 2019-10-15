@@ -48,6 +48,9 @@ public class ANTabBarController: UIViewController {
         return UIStoryboard(name: "ANTabBarController", bundle: Bundle(for: ANTabBarController.self)).instantiateInitialViewController() as! ANTabBarController
     }
 
+    public func setBackgroudColor(_ color: UIColor) {
+        self.tabBar?.backgroundColor = .white
+    }
     
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -119,11 +122,11 @@ public class ANTabBarController: UIViewController {
         self.tabBar?.addItem(title: "Impostazioni", defaultIcon: UIImage(named: "ico-negozi-g"), selectedIcon: UIImage(named: "ico-negozi-b"))
     */
     }
-    
   
     public func add(viewController: UIViewController, item: ANTabBarItem) {
         self.viewControllers.append(viewController)
         self.tabBar?.addItem(item: item)
         
     }
+    
 }

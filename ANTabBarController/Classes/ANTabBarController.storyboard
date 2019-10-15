@@ -29,10 +29,10 @@
                                 <rect key="frame" x="0.0" y="812" width="414" height="84"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdQ-lg-og8">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <rect key="frame" x="20" y="0.0" width="374" height="50"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4d-5F-0AZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,8 +69,8 @@
                                     <constraint firstItem="2MD-x7-cQ5" firstAttribute="leading" secondItem="j1f-I9-C8j" secondAttribute="leading" id="Ryd-LA-IIf"/>
                                     <constraint firstAttribute="height" constant="84" identifier="Height" id="XDK-jn-P71"/>
                                     <constraint firstAttribute="bottom" secondItem="2MD-x7-cQ5" secondAttribute="bottom" id="ZDL-2b-Grb"/>
-                                    <constraint firstItem="vdQ-lg-og8" firstAttribute="leading" secondItem="j1f-I9-C8j" secondAttribute="leading" id="gTi-Jm-EmY"/>
-                                    <constraint firstAttribute="trailing" secondItem="vdQ-lg-og8" secondAttribute="trailing" id="lzM-jG-xih"/>
+                                    <constraint firstItem="vdQ-lg-og8" firstAttribute="leading" secondItem="j1f-I9-C8j" secondAttribute="leading" constant="20" id="gTi-Jm-EmY"/>
+                                    <constraint firstAttribute="trailing" secondItem="vdQ-lg-og8" secondAttribute="trailing" constant="20" id="lzM-jG-xih"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="bottomConstraint" destination="XVT-Yi-dRP" id="I7F-AY-JLi"/>
