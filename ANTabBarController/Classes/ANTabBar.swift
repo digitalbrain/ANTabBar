@@ -8,34 +8,45 @@
 
 import UIKit
 
-class ANTabBar: ANMoovableView {
+open class ANMoovableView: UIView {
+    @IBOutlet var topConstraint: NSLayoutConstraint?
+    @IBOutlet var bottomConstraint: NSLayoutConstraint?
+    @IBOutlet var heigthConstraint: NSLayoutConstraint?
+}
+
+open class ANTabBar: ANMoovableView {
     
     @IBOutlet weak var stackView: UIStackView?
-    @IBOutlet weak var menuBtnView: UIView?
     @IBOutlet weak var fakeLbl: UILabel?
-    
+    var contentView: UIView?
     var didSelectIndex: ((_ index: Int) -> () )?
 
-    override func awakeFromNib() {
+    open override func awakeFromNib() {
         super.awakeFromNib()
         self.setupIntrinsictConstraint()
         if UIDevice.current.userInterfaceIdiom == .pad {
             self.stackView?.distribution = .fillEqually
         }
-        
+        guard let view = loadViewFromNib() else { return }
+        view.frame = self.bounds
+        self.add(subview: view, margin: .zero)
+        contentView = view
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    override func didMoveToSuperview() {
+    func loadViewFromNib() -> UIView? {
+        let bundle = Bundle(for: Self.self)
+        let nib = UINib(nibName: "ANTabBar", bundle: bundle)
+        return nib.instantiate(withOwner: self, options: nil).first as? UIView
+    }
+    
+    open override func didMoveToSuperview() {
         super.didMoveToSuperview()
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-    }
     
     func addItem(item: ANTabBarItem) {
         self.stackView?.addArrangedSubview(item)
@@ -70,7 +81,7 @@ class ANTabBar: ANMoovableView {
         let newFramew = (self.fakeLbl?.superview?.frame.size.width ?? 0.0 )
         sender.setSelected(selected: true, animated: animated, width: newFramew)
         
-        let proporionalSpace: CGFloat = (self.stackView!.frame.size.width - newFramew)/3.0
+        let proporionalSpace: CGFloat = (self.stackView!.frame.size.width - newFramew)/4
         
         
         for item in self.stackView?.arrangedSubviews ?? [] {
@@ -87,12 +98,6 @@ class ANTabBar: ANMoovableView {
         }
         self.heigthConstraint?.constant = ANTabBarController.defaultBarHeight + bottomInset
         self.bottomConstraint?.constant = 0
-        self.superview?.layoutIfNeeded()
-    }
-    
-    func hideOutOfScreen() {
-        let bottom :CGFloat = -100.0
-        self.bottomConstraint?.constant = bottom
         self.superview?.layoutIfNeeded()
     }
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,18 +13,92 @@
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ANTabBarController_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bG2-lQ-8VW"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-242" y="120"/>
+        </scene>
+        <!--App Tab Bar Controller-->
+        <scene sceneID="rP4-Nf-ct2">
+            <objects>
+                <viewController storyboardIdentifier="AppTabBarController" id="XLs-yC-w22" customClass="AppTabBarController" customModule="ANTabBarController_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yXJ-AU-rsP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBh-gV-7Bb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UjR-2l-1SD">
+                                <rect key="frame" x="0.0" y="812" width="414" height="84"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3FE-Mn-e5W" customClass="ANTabBar" customModule="ANTabBarController">
+                                        <rect key="frame" x="0.0" y="0.0" width="362.5" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IbE-rl-5pr"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="phv-GV-31I">
+                                        <rect key="frame" x="362.5" y="0.0" width="51.5" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="notification" translatesAutoresizingMaskIntoConstraints="NO" id="gDF-tT-Ptd">
+                                        <rect key="frame" x="378" y="15" width="20" height="20"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstItem="gDF-tT-Ptd" firstAttribute="centerY" secondItem="phv-GV-31I" secondAttribute="centerY" id="1Hl-ys-dtN"/>
+                                    <constraint firstItem="phv-GV-31I" firstAttribute="top" secondItem="UjR-2l-1SD" secondAttribute="top" id="2cl-ff-DIx"/>
+                                    <constraint firstItem="phv-GV-31I" firstAttribute="leading" secondItem="3FE-Mn-e5W" secondAttribute="trailing" id="4Lb-mo-ifj"/>
+                                    <constraint firstItem="phv-GV-31I" firstAttribute="width" secondItem="UjR-2l-1SD" secondAttribute="width" multiplier="1/8" id="Exo-wK-Gel"/>
+                                    <constraint firstItem="gDF-tT-Ptd" firstAttribute="centerX" secondItem="phv-GV-31I" secondAttribute="centerX" id="HxV-kX-iPF"/>
+                                    <constraint firstAttribute="trailing" secondItem="phv-GV-31I" secondAttribute="trailing" id="UPF-4p-ruR"/>
+                                    <constraint firstItem="3FE-Mn-e5W" firstAttribute="top" secondItem="UjR-2l-1SD" secondAttribute="top" id="ep3-R4-ypi"/>
+                                    <constraint firstItem="phv-GV-31I" firstAttribute="height" secondItem="3FE-Mn-e5W" secondAttribute="height" id="gkm-9H-MqU"/>
+                                    <constraint firstItem="3FE-Mn-e5W" firstAttribute="leading" secondItem="UjR-2l-1SD" secondAttribute="leading" id="kTj-Ka-5Cw"/>
+                                    <constraint firstItem="3FE-Mn-e5W" firstAttribute="leading" secondItem="UjR-2l-1SD" secondAttribute="leading" id="zVZ-6Y-Gwc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jSB-Pm-xbU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jSB-Pm-xbU" firstAttribute="bottom" secondItem="HBh-gV-7Bb" secondAttribute="bottom" id="2Em-0q-7DM"/>
+                            <constraint firstItem="jSB-Pm-xbU" firstAttribute="bottom" secondItem="3FE-Mn-e5W" secondAttribute="bottom" id="3cE-WF-XVr"/>
+                            <constraint firstItem="UjR-2l-1SD" firstAttribute="leading" secondItem="jSB-Pm-xbU" secondAttribute="leading" id="GgU-Om-6Wk"/>
+                            <constraint firstAttribute="bottom" secondItem="UjR-2l-1SD" secondAttribute="bottom" id="NDu-hi-Kvc"/>
+                            <constraint firstItem="jSB-Pm-xbU" firstAttribute="trailing" secondItem="HBh-gV-7Bb" secondAttribute="trailing" id="PJs-oR-Oyu"/>
+                            <constraint firstItem="HBh-gV-7Bb" firstAttribute="top" secondItem="yXJ-AU-rsP" secondAttribute="top" id="g7t-iq-dwe"/>
+                            <constraint firstItem="jSB-Pm-xbU" firstAttribute="trailing" secondItem="UjR-2l-1SD" secondAttribute="trailing" id="noz-UF-pc2"/>
+                            <constraint firstItem="HBh-gV-7Bb" firstAttribute="leading" secondItem="jSB-Pm-xbU" secondAttribute="leading" id="wbx-vx-lUt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="HBh-gV-7Bb" id="XWM-nU-Gqe"/>
+                        <outlet property="tabBar" destination="3FE-Mn-e5W" id="roM-4N-0wK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8H-XY-ELc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="572.46376811594212" y="416.51785714285711"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="notification" width="20" height="20"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
