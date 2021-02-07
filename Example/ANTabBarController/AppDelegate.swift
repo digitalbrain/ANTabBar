@@ -35,14 +35,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let ico2 = UIImage(named: "notification")?.withRenderingMode(.alwaysTemplate)
         let ico3 = UIImage(named: "star")?.withRenderingMode(.alwaysTemplate)
         let ico4 = UIImage(named: "settings")?.withRenderingMode(.alwaysTemplate)
-        if #available(iOS 13.0, *) {
-            
+   
             self.tabBarCotnroller?.add(viewController: vc1, item: ANTabBarItem.create(title: "Home", icon: ico1, defaultColor: .white, selectedColor: color))
             self.tabBarCotnroller?.add(viewController: vc2, item: ANTabBarItem.create(title: "Notifiche", icon: ico2, defaultColor: .white, selectedColor: .black))
             self.tabBarCotnroller?.add(viewController: vc3, item: ANTabBarItem.create(title: "Preferiti", icon: ico3, defaultColor: .white, selectedColor: color))
             self.tabBarCotnroller?.add(viewController: vc4, item: ANTabBarItem.create(title: "Impostazioni", icon: ico4, defaultColor: .white, selectedColor: color))
-            self.tabBarCotnroller?.add(viewController: vc4, item: ANTabBarItem.create(title: "Impostazioni", icon: ico4, defaultColor: .white, selectedColor: color))
-        }
+
+        
         
         return true
           

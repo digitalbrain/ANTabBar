@@ -80,8 +80,8 @@ open class ANTabBar: ANMoovableView {
         
         let newFramew = (self.fakeLbl?.superview?.frame.size.width ?? 0.0 )
         sender.setSelected(selected: true, animated: animated, width: newFramew)
-        
-        let proporionalSpace: CGFloat = (self.stackView!.frame.size.width - newFramew)/4
+        let itemsCount = (self.stackView?.subviews.count ?? 1) - 1
+        let proporionalSpace: CGFloat = (self.stackView!.frame.size.width - newFramew) / CGFloat((max(itemsCount, 1)))
         
         
         for item in self.stackView?.arrangedSubviews ?? [] {
