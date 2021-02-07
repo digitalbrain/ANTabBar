@@ -20,6 +20,7 @@ open class ANTabBar: ANMoovableView {
     @IBOutlet weak var fakeLbl: UILabel?
     var contentView: UIView?
     var didSelectIndex: ((_ index: Int) -> () )?
+    var selectedIndex: Int = 0
 
     open override func awakeFromNib() {
         super.awakeFromNib()
@@ -47,6 +48,13 @@ open class ANTabBar: ANMoovableView {
         super.didMoveToSuperview()
     }
     
+    public func setItems(items: [ANTabBarItem]) {
+        for item in items {
+            self.addItem(item: item)
+        }
+        self.selectIndex(index: self.selectedIndex, animated: false)
+        
+    }
     
     func addItem(item: ANTabBarItem) {
         self.stackView?.addArrangedSubview(item)
@@ -54,7 +62,10 @@ open class ANTabBar: ANMoovableView {
     }
     
     func selectIndex(index: Int, animated: Bool = true)  {
-        self.selectItem(sender: self.stackView?.arrangedSubviews[index] as! ANTabBarItem, animated: animated)
+        if index < self.stackView?.arrangedSubviews.count ?? 0 {
+            self.selectItem(sender: self.stackView?.arrangedSubviews[index] as! ANTabBarItem, animated: animated)
+        }
+        self.selectedIndex = index
     }
     
 
@@ -67,6 +78,7 @@ open class ANTabBar: ANMoovableView {
         self.selectItem(sender: sender, animated: true)
         for i in 0 ..< (self.stackView?.arrangedSubviews.count ?? 0) {
             if self.stackView?.arrangedSubviews[i] == sender {
+                self.selectedIndex = i
                 self.didSelectIndex?(i)
             }
         }
@@ -128,5 +140,3 @@ open class ANTabBar: ANMoovableView {
         })
     }
 }
-
-

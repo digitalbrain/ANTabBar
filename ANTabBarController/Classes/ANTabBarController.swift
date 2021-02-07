@@ -85,6 +85,11 @@ open class ANTabBarController: UIViewController {
         
     }
     
+    open func setItems(viewControllers: [UIViewController], items: [ANTabBarItem]) {
+        self.viewControllers = viewControllers
+        self.tabBar?.setItems(items: items)
+    }
+    
     open func add(viewController: UIViewController, item: ANTabBarItem) {
         self.viewControllers.append(viewController)
         self.tabBar?.addItem(item: item)
