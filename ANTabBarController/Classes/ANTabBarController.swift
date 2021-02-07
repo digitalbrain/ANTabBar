@@ -11,21 +11,21 @@ import UIKit
 
 open class ANTabBarController: UIViewController {
     
-    static let animationTime: TimeInterval = 0.65
-    static let defaultBarHeight: CGFloat = 50
+    public static let animationTime: TimeInterval = 0.65
+    public static let defaultBarHeight: CGFloat = 50
     
     @IBOutlet weak var tabBar: ANTabBar?
     @IBOutlet weak var contentView: UIView?
     
-    public weak var currentViewController: UIViewController?
+    open weak var currentViewController: UIViewController?
     
     private var shouldResetSelectedItem: Bool = true
     
-    override public var childForStatusBarStyle: UIViewController? {
+    override open var childForStatusBarStyle: UIViewController? {
         return self.currentViewController
     }
     
-    override public var preferredStatusBarStyle: UIStatusBarStyle {
+    override open var preferredStatusBarStyle: UIStatusBarStyle {
         get {
             return self.currentViewController?.preferredStatusBarStyle ?? .lightContent
         }
@@ -47,7 +47,7 @@ open class ANTabBarController: UIViewController {
         self.tabBar?.backgroundColor = .white
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         self.showViewController(atIndex: 0)
         self.tabBar?.didSelectIndex = { [weak self] (index: Int) in
@@ -55,7 +55,7 @@ open class ANTabBarController: UIViewController {
         }
     }
     
-    public func showViewController(atIndex index: Int, forceTabBarRefresh: Bool = false) {
+    open func showViewController(atIndex index: Int, forceTabBarRefresh: Bool = false) {
         if index < self.viewControllers.count {
             self.currentViewController?.view.removeFromSuperview()
             self.currentViewController?.removeFromParent()
@@ -69,7 +69,7 @@ open class ANTabBarController: UIViewController {
         }
     }
     
-    override public func viewDidAppear(_ animated: Bool) {
+    override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if shouldResetSelectedItem {
             self.tabBar?.selectIndex(index: 0, animated: false)
@@ -80,12 +80,12 @@ open class ANTabBarController: UIViewController {
     }
     
     
-    func addItem(viewController: UIViewController, title: String, tintColor: UIColor) {
+    open func addItem(viewController: UIViewController, title: String, tintColor: UIColor) {
         self.viewControllers.append(viewController)
         
     }
     
-    public func add(viewController: UIViewController, item: ANTabBarItem) {
+    open func add(viewController: UIViewController, item: ANTabBarItem) {
         self.viewControllers.append(viewController)
         self.tabBar?.addItem(item: item)
         
